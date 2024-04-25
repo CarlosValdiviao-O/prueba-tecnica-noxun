@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(201, 201, 201, 0.329);
+    min-height: 100vh;
+}
+
+a, a * {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: #45489aa6;
+}
+
+nav > * {
+    padding: 8px;
+}
+
+nav a {
+    font-size: larger;
+    color: rgb(233 180 76);
+    text-shadow: black 1px 1px;
+}
+
+nav input {
+    border-radius: 4px;
+    border: 0px;
+}
+
+.contenedor {
+    max-width: 80%;
+    margin-left: auto;
+}
+
+.contenedor h2 {
+    margin: 24px 0;
+}
+
+.publicaciones {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.miniatura, .publicacion {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 12px;
+    color: #7a7a7a;
+}
+
+.miniatura a {
+    font-size: large;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.botones {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones * {
+    padding: 8px;
+}
+
+.botones .oculto {
+    color: transparent;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.info .titulo {
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.info a {
+    font-style: italic;
+    margin-bottom: 18px;
+    color: #7a7a7a;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarios h3 {
+    color: #333;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 12px;
+    border-radius: 4px;
+    box-shadow: rgb(38, 57, 77) 0px 2px 3px ;
+}
+
+.comentario .correo {
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 6px;
+}
